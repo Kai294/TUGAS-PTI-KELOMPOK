@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anggaran - Manajemen Keuangan</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <header><BR>
+        <h1>Finance Manager</h1>
+        <BR>
+        <nav>
+            <ul>
+                <li><a href="web pti kelompok.html">Home</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="anggaran.html">Anggaran</a></li>
+                <li><a href="laporan keuangan.html">Laporan keuangan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Anggaran</h2>
+        <form id="budget-form">
+            <label for="category">Kategori:</label>
+            <input type="text" id="category" name="category" required>
+
+            <label for="amount">Jumlah:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <button type="submit">Tambahkan Anggaran</button>
+        </form>
+        <section id="budget-list">
+            <h3>Daftar Anggaran</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Kategori</th>
+                        <th>Jumlah</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Makanan</td>
+                        <td>Rp 2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>Transportasi</td>
+                        <td>Rp 1,000,000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright &copy; 2024. PT Mandalika</p>
+    </footer><br>
+</body>
+</html>

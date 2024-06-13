@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi - Manajemen Keuangan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header><br>
+        <h1>Finance Manager</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="web pti kelompok.html">Home</a></li>
+                <li><a href="transaksi.html">Transaksi</a></li>
+                <li><a href="anggaran.html">Anggaran</a></li>
+                <li><a href="laporan keuangan.html">Laporan keuangan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Transaksi</h2>
+        <br>
+        <form id="transaction-form">
+            <label for="date">Tanggal:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="description">Deskripsi:</label>
+            <input type="text" id="description" name="description" required>
+
+            <label for="amount">Jumlah:</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <label for="category">Kategori:</label>
+            <select id="category" name="category" required>
+                <option value="income">Pendapatan</option>
+                <option value="expense">Pengeluaran</option>
+            </select>
+
+            <button type="submit">Tambahkan Transaksi</button>
+        </form>
+        <section id="transaction-list">
+            <h3>Daftar Transaksi</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tanggal</th>
+                            <th>Deskripsi</th>
+                            <th>Jumlah</th>
+                            <th>Kategori</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2024-06-01</td>
+                            <td>Gaji Bulanan</td>
+                            <td>10000000</td>
+                            <td>Pendapatan</td>
+                        </tr>
+                        <tr>
+                            <td>2024-06-03</td>
+                            <td>Belanja Bulanan</td>
+                            <td>2000000</td>
+                            <td>Pengeluaran</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    <footer>
+        <p>Copyright &copy; 2024. PT Mandalika</p>
+    </footer>
+</body>
+</html>

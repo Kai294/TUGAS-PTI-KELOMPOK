@@ -1,0 +1,81 @@
+/* Reset CSS */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling Header */
+header {
+    background-color: #4cAF50;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Styling Navigation */
+nav ul {
+    list-style-type: none;
+    background-color: #45a049;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    margin: 2em 1em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 20px;
+}
+section h2 {
+    color: #4CAF50;
+    margin-bottom: 0.5em;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.feature {
+    background-color: #e9f5e9;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling Content */
+#content {
+    padding: 20px;
+}
+
+/* Styling Footer */
+footer {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
